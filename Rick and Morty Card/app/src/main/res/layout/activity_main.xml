@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:text="Rick And Morty"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etNomor"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:background="#FFFFFF"
+            android:hint="Masukkan Angka dari 1 - 826 "
+            android:inputType="textPersonName"/>
+
+        <Button
+            android:id="@+id/btnGet"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@null"
+            android:onClick="getNomorDetails"
+            android:text="GO"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="234dp"
+             />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvResult"
+                android:background="#FFFFFF"
+                android:textColor="@android:color/black"/>
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

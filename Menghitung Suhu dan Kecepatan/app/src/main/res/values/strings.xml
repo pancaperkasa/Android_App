@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">tugas_1</string>
+    <string name="buttonClicked">onClick</string>
+    <string name="header">Perkasa Panca Program</string>
+    <string name="sapaan">Hai, selamat datang \nApa yang anda inginkan ?</string>
+    <string name="txtsuhu">Menghitung Suhu</string>
+
+    <string name="suhuheader">Program Konversi Suhu Celsius\nMenjadi Kelvin, Farenheit,\nDan Reamur</string>
+    <string name="txthitung">Hitung</string>
+    <string name="buttonhitung">hitungSuhu</string>
+    <string name="txtNol">Belum Ada</string>
+    <string name="back">Kembali</string>
+
+    <string name="txtjarak">Menghitung Jarak</string>
+    <string name="jarakcheader">Program Mencari Jarak\nMenggunakan Kecepatan,\nDan Waktu</string>
+    <string name="kec">m/s</string>
+    <string name="waktu">Jam</string>
+    <string name="hitjarak">hitungJarak</string>
+
+
+</resources>
